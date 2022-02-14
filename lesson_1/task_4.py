@@ -3,9 +3,8 @@
 
 class Solution:
     def solved(self, year):
-        return year % 4 == 0 or year % 100 == 0 or year % 400 == 0
+        return year % 400 == 0 or year % 4 == 0 and year % 100 != 0
 
 
 s = Solution()
-print(s.solved(2020))
-
+print(s.solved(1900))
