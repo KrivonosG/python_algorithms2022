@@ -16,3 +16,4 @@ for j in range(count):
         queue.append(arrival + duration)
     else:
         print(-1)
+
