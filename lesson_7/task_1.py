@@ -32,4 +32,6 @@ m = 7
 
 array = [random.randint(0, 100) for i in range(2 * m + 1)]
 print(f'Mассив: {array}')
+heap_sort(array)
+print(f'Отсортированный массив: {array}')
 print(f'Медиана: {array[m]}')
